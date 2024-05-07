@@ -1,0 +1,10 @@
+tests\SearchTest.class
+tests\AddToCartTest.class
+tests\ProductDetailsTest.class
+tests\CheckoutTest.class
+tests\MoveToCart.class
+tests\SaveForLaterTest.class
+tests\LanguageTest.class
+tests\RemoveFromCartTest.class
+tests\LoginTest.class
+tests\ProductQuantityTest.class

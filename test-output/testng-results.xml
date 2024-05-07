@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-07T16:22:08Z" name="Suite" finished-at="2024-05-07T16:22:59Z" duration-ms="50738">
+    <groups>
+    </groups>
+    <test started-at="2024-05-07T16:22:08Z" name="ProductQuantityTest" finished-at="2024-05-07T16:22:59Z" duration-ms="50738">
+      <class name="tests.AddToCartTest">
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:tests.AddToCartTest@7d898981]" started-at="2024-05-07T21:52:43Z" name="openApplication" finished-at="2024-05-07T21:52:47Z" duration-ms="4634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="AddToCarttest(java.lang.String)[pri:0, instance:tests.AddToCartTest@7d898981]" started-at="2024-05-07T21:52:47Z" name="AddToCarttest" data-provider="getLoginData" finished-at="2024-05-07T21:52:58Z" duration-ms="10958" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Iphone]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddToCarttest -->
+        <test-method is-config="true" signature="closure()[pri:0, instance:tests.AddToCartTest@7d898981]" started-at="2024-05-07T21:52:58Z" name="closure" finished-at="2024-05-07T21:52:59Z" duration-ms="315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closure -->
+      </class> <!-- tests.AddToCartTest -->
+      <class name="tests.LanguageTest">
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:tests.LanguageTest@282cb7c7]" started-at="2024-05-07T21:52:19Z" name="openApplication" finished-at="2024-05-07T21:52:36Z" duration-ms="16730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="Languagetest(java.lang.String)[pri:0, instance:tests.LanguageTest@282cb7c7]" started-at="2024-05-07T21:52:36Z" name="Languagetest" data-provider="getLanguage" finished-at="2024-05-07T21:52:43Z" duration-ms="6788" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mobiles]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Languagetest -->
+        <test-method is-config="true" signature="closure()[pri:0, instance:tests.LanguageTest@282cb7c7]" started-at="2024-05-07T21:52:43Z" name="closure" finished-at="2024-05-07T21:52:43Z" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closure -->
+      </class> <!-- tests.LanguageTest -->
+      <class name="tests.SearchTest">
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:tests.SearchTest@5a9f4771]" started-at="2024-05-07T21:52:08Z" name="openApplication" finished-at="2024-05-07T21:52:15Z" duration-ms="6536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="Searchfeature(java.lang.String)[pri:0, instance:tests.SearchTest@5a9f4771]" started-at="2024-05-07T21:52:15Z" name="Searchfeature" data-provider="getData" finished-at="2024-05-07T21:52:19Z" duration-ms="4229" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Laptop]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Searchfeature -->
+        <test-method is-config="true" signature="closure()[pri:0, instance:tests.SearchTest@5a9f4771]" started-at="2024-05-07T21:52:19Z" name="closure" finished-at="2024-05-07T21:52:19Z" duration-ms="268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closure -->
+      </class> <!-- tests.SearchTest -->
+    </test> <!-- ProductQuantityTest -->
+  </suite> <!-- Suite -->
+</testng-results>
