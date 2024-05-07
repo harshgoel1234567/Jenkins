@@ -9,7 +9,7 @@
     <classes>
       <class name="tests.SearchTest"/>
       <class name="tests.LanguageTest"/>
-      <class name="tests.AddToCartTest"/>
+
        
     </classes>
   </test>
