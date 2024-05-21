@@ -1,0 +1,41 @@
+pipeline {
+    agent any
+    
+    tools {
+        // Specify the JDK installation configured in Jenkins
+        jdk 'JDK' // 'jdk8' is the name of the JDK installation defined in Jenkins
+        maven 'Maven' // 'Maven' is the name of the Maven installation defined in Jenkins
+    }
+    
+    stages {
+        stage('Checkout') {
+            steps {
+                // Checkout the source code into the workspace directory
+                git branch: 'main', url: 'https://github.com/harshgoel1234567/Jenkins.git' // Replace with your Git repository URL
+            }
+        }
+        stage('Build') {
+            steps {
+                // Build your project using Maven
+                bat 'mvn clean package' // Use 'mvn' command explicitly
+            }
+        }
+        stage('Test') {
+            steps {
+                // Run your tests using Maven
+                bat 'mvn test' // Use 'mvn' command explicitly
+            }
+        }
+    }
+    
+    post {
+        success {
+            echo 'Pipeline succeeded! You can celebrate now.'
+            // Optionally, you could trigger another job or send a notification upon success
+        }
+        failure {
+            echo 'Pipeline failed! Time to investigate.'
+            // Optionally, you could send a notification or trigger another job upon failure
+        }
+    }
+}
